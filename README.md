@@ -126,5 +126,7 @@ _✨ 一个简易的Bot断连重启NTQQ的插件 ✨_
 你可以参照[**配置文件示例**](https://github.com/kanbereina/nonebot-plugin-ntqq-restart/blob/master/.env.prod.example)或**文档-配置**以配置插件参数
 ### ②NTQQ端设置（此两个选项保持打开状态）
 ![NTQQ端设置](https://github.com/kanbereina/nonebot-plugin-ntqq-restart/blob/master/doc/ntqq_config_example.PNG)
+### ③配置后直接运行nonebot即可
+> **nb run**
 ### 效果图
 如果有效果图的话
