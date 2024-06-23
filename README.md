@@ -6,16 +6,16 @@
 
 <div align="center">
 
-# nonebot-plugin-template
+# nonebot-plugin-ntqq-restart
 
 _✨ NoneBot 插件简单描述 ✨_
 
 
 <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/kanbereina/nonebot-plugin-template.svg" alt="license">
+    <img src="https://img.shields.io/github/license/kanbereina/nonebot-plugin-ntqq-restart.svg" alt="license">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot-plugin-template">
-    <img src="https://img.shields.io/pypi/v/nonebot-plugin-template.svg" alt="pypi">
+<a href="https://pypi.python.org/pypi/nonebot-plugin-ntqq-restart">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-ntqq-restart.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
 
