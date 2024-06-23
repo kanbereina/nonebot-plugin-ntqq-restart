@@ -114,8 +114,12 @@ _✨ 一个简易的Bot断连重启NTQQ的插件 ✨_
 
 | 配置项 | 必填 | 默认值 | 说明 |
 |:-----:|:----:|:----:|:----:|
-| 配置项1 | 是 | 无 | 配置说明 |
-| 配置项2 | 否 | 无 | 配置说明 |
+| NTQQ_Path | 是 | 无 | NTQQ的.exe文件的完整路径 |
+| enable_restart_when_disc | 否 | True | 允许Bot断连后重启NTQQ |
+| enable_login_when_nbrun | 否 | False | 允许nb加载时运行NTQQ |
+| enable_close_qq_when_shutdown | 否 | False | 允许nb关闭时关闭NTQQ |
+| restart_after_disc_time | 否 | 10 | 在Bot断连的{int}秒后重启NTQQ |
+| retry_max_time | 否 | 5 | 重试NTQQ窗口最小化的最大时间(秒) |
 
 ## 🎉 使用
 ### 指令表
