@@ -8,7 +8,7 @@
 
 # nonebot-plugin-ntqq-restart
 
-_✨ NoneBot 插件简单描述 ✨_
+_✨ 一个简易的Bot断连重启NTQQ的插件 ✨_
 
 
 <a href="./LICENSE">
@@ -73,7 +73,7 @@ _✨ NoneBot 插件简单描述 ✨_
 <summary>使用 nb-cli 安装</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    nb plugin install nonebot-plugin-template
+    nb plugin install nonebot-plugin-ntqq-restart
 
 </details>
 
@@ -84,27 +84,27 @@ _✨ NoneBot 插件简单描述 ✨_
 <details>
 <summary>pip</summary>
 
-    pip install nonebot-plugin-template
+    pip install nonebot-plugin-ntqq-restart
 </details>
 <details>
 <summary>pdm</summary>
 
-    pdm add nonebot-plugin-template
+    pdm add nonebot-plugin-ntqq-restart
 </details>
 <details>
 <summary>poetry</summary>
 
-    poetry add nonebot-plugin-template
+    poetry add nonebot-plugin-ntqq-restart
 </details>
 <details>
 <summary>conda</summary>
 
-    conda install nonebot-plugin-template
+    conda install nonebot-plugin-ntqq-restart
 </details>
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
-    plugins = ["nonebot_plugin_template"]
+    plugins = ["nonebot-plugin-ntqq-restart"]
 
 </details>
 
