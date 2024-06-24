@@ -80,7 +80,10 @@ class NTQQ:
             autoit.win_wait("QQ", timeout=12)
             autoit.win_wait_active("QQ", timeout=10)
         except Exception:
-            raise TimeoutError("等待NTQQ超时, 请重启nb或手动进行登录!")
+            msg = "等待NTQQ超时, 请重启nb或手动进行登录!"
+            logger.error(msg)
+            raise TimeoutError(msg) from None
+
         logger.debug("NTQQ窗口已加载!")
 
     @staticmethod
@@ -117,6 +120,8 @@ async def run_qq_main():
             await asyncio.sleep(1)
             i += 1
             continue
+
+        await asyncio.sleep(1)  # 防止进程终止过快导致启动失败
 
     NTQQ.run_qq()  # 运行QQ
 
