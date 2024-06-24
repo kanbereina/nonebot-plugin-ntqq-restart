@@ -1,13 +1,13 @@
 [project]
 name = "nonebot_plugin_ntqq_restart"
-version = "0.1.0"
+version = "0.1.1"
 description = "A plugin for restarting NTQQ when bot disconnection"
 authors = [
     {name = "KanbeReina", email = "kano.2525@qq.com"},
 ]
 dependencies = [
-    "autoit>=0.2.6",
-    "nonebot2>=2.3.0",
+    "pyautoit>=0.6.5",
+    "nonebot2>=2.3.1",
     "nonebot-plugin-apscheduler>=0.4.0",
 ]
 requires-python = ">=3.10"

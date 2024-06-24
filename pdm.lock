@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:e3f3f55b3902cf94c74a1e7782ae3bab85a6ff63dd51834bdf110da8c52795e2"
+content_hash = "sha256:f772ed21f45dd2f712254897e226c1e20d7e30f4580b2dcf8c7f28f40412244b"
 
 [[package]]
 name = "annotated-types"
@@ -32,17 +32,6 @@ dependencies = [
 files = [
     {file = "APScheduler-3.10.4-py3-none-any.whl", hash = "sha256:fb91e8a768632a4756a585f79ec834e0e27aad5860bac7eaa523d9ccefd87661"},
     {file = "APScheduler-3.10.4.tar.gz", hash = "sha256:e6df071b27d9be898e486bc7940a7be50b4af2e9da7c08f0744a96d4bd4cef4a"},
-]
-
-[[package]]
-name = "autoit"
-version = "0.2.6"
-requires_python = ">=3.5"
-summary = "Automate it with Python"
-groups = ["default"]
-files = [
-    {file = "autoit-0.2.6-py3-none-any.whl", hash = "sha256:29fc0bb71274f5bbe1b5565e926be7d71f270ae850079d83c98d5a13724f31f8"},
-    {file = "autoit-0.2.6.tar.gz", hash = "sha256:a4c27d1f160ac8d4777f9d39228f5e16eb10daf7e2517c70d561835e154a1d68"},
 ]
 
 [[package]]
@@ -173,6 +162,16 @@ dependencies = [
 files = [
     {file = "nonebot2-2.3.1-py3-none-any.whl", hash = "sha256:91ac0abebe6c403c2443b11a49e065b79e6199460bdd61a32148366b35f81c4d"},
     {file = "nonebot2-2.3.1.tar.gz", hash = "sha256:ac5a1a1759f15310e9183b606ce6bdbe52a90287bf36a69201be548e23d41e6c"},
+]
+
+[[package]]
+name = "pyautoit"
+version = "0.6.5"
+summary = "Python binding for AutoItX3.dll"
+groups = ["default"]
+files = [
+    {file = "PyAutoIt-0.6.5-py3-none-any.whl", hash = "sha256:00935e9a3d7b4afd1a4baa1d52ecaf1cd414bbc0332c7e0165101ef59ba055a8"},
+    {file = "PyAutoIt-0.6.5.tar.gz", hash = "sha256:091f669a6cacdc47b48b56ce9021cf97f192d8ad008eef911e842a87989ae82c"},
 ]
 
 [[package]]
