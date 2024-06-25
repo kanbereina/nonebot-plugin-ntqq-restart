@@ -1,6 +1,6 @@
 import os
 
-from nonebot import require
+from nonebot import require, logger
 from nonebot.plugin import PluginMetadata
 require("nonebot_plugin_apscheduler")
 
