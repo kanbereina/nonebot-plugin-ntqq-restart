@@ -3,7 +3,11 @@ from nonebot.plugin import PluginMetadata
 require("nonebot_plugin_apscheduler")
 
 from .config import Config
-from .__main__ import *
+# 强制Windows系统插件生效
+if os.name == "nt":
+    from .__main__ import *
+else:
+    logger.warning("此插件仅能在Windows系统上使用, 已自动禁用插件!")
 
 __plugin_meta__ = PluginMetadata(
     name="NTQQ自动登录/断连重启",
