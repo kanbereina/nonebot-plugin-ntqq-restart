@@ -22,14 +22,18 @@ _✨ 一个简易的Bot断连重启NTQQ的插件 ✨_
 </div>
 
 
-## ⚠警告
+## ⚠使用警告
 
-> ①本插件**仅适用于Windows用户**！（原理上使用了**WinAPI**和**Win命令行**）
-> 
-> ②本插件由于**Windows的窗口句柄**的原因，在**插件开启/关闭**时会**杀死存在的所有QQ进程**！
+> ①本插件**仅适用于Windows用户**！（原理上使用了**WinAPI**和**Win命令**）
+>
+> ②使用本插件时，你的**NTQQ进程**需要**全程由本插件保管**!
 > 
 > ③本插件只适用于**NTQQ登录过期**的情况（此情况仍旧可以重启后正常登录），<br>
 > 对于其他情况（包括但不限于**账号冻结**、**版本过低**），**无法提供**有效的解决方案 **!**
+
+## 🎉来点甜点
+
+本插件V2.0已经实现**独立进程NTQQ存活**, 不会再有**所有NTQQ进程误杀**的情况!
 
 ## 📖 介绍
 
@@ -87,11 +91,9 @@ _✨ 一个简易的Bot断连重启NTQQ的插件 ✨_
 | 配置项 | 必填 | 默认值 | 说明 |
 |:-----:|:----:|:----:|:----:|
 | NTQQ_Path | 是 | 无 | NTQQ的.exe文件的完整路径 |
-| enable_restart_when_disc | 否 | True | 允许Bot断连后重启NTQQ |
-| enable_login_when_nbrun | 否 | False | 允许nb加载时运行NTQQ |
-| enable_close_qq_when_shutdown | 否 | False | 允许nb关闭时关闭NTQQ |
-| restart_after_disc_time | 否 | 10 | 在Bot断连的{int}秒后重启NTQQ |
-| retry_max_time | 否 | 5 | 重试NTQQ窗口最小化的最大时间(秒) |
+| Enable_Restart | 是 | True | 启用此插件 |
+| Disable_Restart_When_Debug | 否 | False | 日志等级为Debug时禁用此插件 |
+| Restart_Time | 否 | 10 | 在Bot断连的{int}秒后重启NTQQ |
 
 ## 🎉 使用
 ### ①插件配置
