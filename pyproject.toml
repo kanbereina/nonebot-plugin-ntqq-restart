@@ -1,6 +1,6 @@
 [project]
 name = "nonebot_plugin_ntqq_restart"
-version = "0.2.0"
+version = "0.2.1"
 description = "A plugin for restarting NTQQ when bot disconnection"
 authors = [
     {name = "KanbeReina", email = "kano.2525@qq.com"},
